@@ -4,10 +4,13 @@ High-Throughput Sequencing (HTS) data analysis
 
 1/ open file main.py, modify input file's path
     then
-    run $python main.py
+    run 
+     $ python main.py
 
 2/ or run directly without modification main.py
 
-    python -c 'from main import main; main("path/of/your/vcf_file.vcf")'
-    for example
-    python -c 'from main import main; main("../../data/sample_vcf_file.vcf")'
+      python -c 'from main import main; main("path/of/your/vcf_file.vcf")'
+  
+  for example 
+  
+      python -c 'from main import main; main("./data/sample_vcf_file.vcf")'
