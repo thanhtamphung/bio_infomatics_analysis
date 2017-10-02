@@ -14,7 +14,7 @@ start=datetime.now()
 
 # modify your input file here
 #filename_in = '../../data/CAM_Realigned_snps.vcf'
-filename_in = '../../data/sample_vcf_file.vcf'
+filename_in = '/sample_vcf_file.vcf'
 #filename_in = '../../data/Pfeiffer.vcf'
 filename_out = filename_in[0:len(filename_in)-3] + 'csv'
 
