@@ -11,4 +11,4 @@
   
   for example 
   
-      python -c 'from main import main; main("../../data/sample_vcf_file.vcf")'
+      python -c 'from main import main; main("sample_vcf_file.vcf")'
