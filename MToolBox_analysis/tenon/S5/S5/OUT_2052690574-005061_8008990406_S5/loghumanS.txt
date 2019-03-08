@@ -1,0 +1,9 @@
+GSNAP version 2015-12-31 called with args: /data/MToolBox/MToolBox-master/bin/gmap/bin/gsnap -D /data/MToolBox/MToolBox-master/gmapdb/ -d hg19RCRS -A sam --nofails --query-unk-mismatch=1 -O -t 8 /home/phung/Documents/work/MToolBox-master/tenon/S5/S5//OUT_2052690574-005061_8008990406_S5/outmt.fastq
+Neither novel splicing (-N) nor known splicing (-s) turned on => assume reads are DNA-Seq (genomic)
+Checking compiler assumptions for popcnt: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...Attached new memory for /data/MToolBox/MToolBox-master/gmapdb//hg19RCRS/hg19RCRS.genomecomp...done (1,176,435,480 bytes, 5.80 sec)
+Allocating memory for compressed genome (bits)...Attached new memory for /data/MToolBox/MToolBox-master/gmapdb//hg19RCRS/hg19RCRS.genomebits128...done (1,176,435,504 bytes, 5.84 sec)
+Enhanced suffix array file /data/MToolBox/MToolBox-master/gmapdb//hg19RCRS/hg19RCRS.salcpchilddc does not exist.  The genome was built using an obsolete version
