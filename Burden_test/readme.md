@@ -1,1 +1,34 @@
-Annotation and Burden test
+# Annotation and Burden test
+
+## Dependencies:
+
+  1/ python packages in import cell
+  
+  2/ bedtools
+  
+  3/ vcftools (vcf-subset, vcf-sort, vcf-merge)
+  
+  4/ htslib (bgzip, tabix)
+  
+  5/ exomiser 8.0.0 https://github.com/exomiser/Exomiser/releases/tag/8.0.0
+  
+  6/ rvtests https://github.com/zhanxw/rvtests
+
+## Burden test Framework
+1/ Review data
+
+2/ Filter position with bed file
+
+3/ Split sample from vcf
+
+4/ Filter read depth (min_base_count = 10) and maybe ref, alt
+
+5/ Annotation with exomiser
+
+6/ Filter function_class (protein affecting) and maybe freq
+
+7/ Merge results
+
+8/ Preprocessing and Burden test
+
+9/ Output report
