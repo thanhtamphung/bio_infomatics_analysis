@@ -1,4 +1,5 @@
-MToolBox: A pipeline for heteroplasmy annotation and prioritization analysis of human mitochondrial variants in high-throughput sequencing.
+# MToolBox
+A pipeline for heteroplasmy annotation and prioritization analysis of human mitochondrial variants in high-throughput sequencing.
 
 1/ Install MToolBox: https://github.com/mitoNGS/MToolBox/wiki/Installation 
   
