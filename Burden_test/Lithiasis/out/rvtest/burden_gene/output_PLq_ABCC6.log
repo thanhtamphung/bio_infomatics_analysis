@@ -1,0 +1,18 @@
+[INFO]	Program version: 20171009
+[INFO]	Git Version: 02a02ba9f5927aee3df3b8162efed8e23aaea886
+[INFO]	Parameters BEGIN
+# ParameterList created by phung on phung-Precision-Tower-5810 at Mon Mar 18 16:14:33 2019
+--inVcf "/data/BurdenTest/Lithiasis_mar/output/exome/Lithiasis_set_20082018-123-samples_merge_exomiser_all_sort_bz.vcf.gz" --out "/data/BurdenTest/Lithiasis_mar/output/rvtest/burden_gene/output_PLq_ABCC6" --pheno "/data/BurdenTest/Lithiasis_mar/output/rvtest/pheno/pheno_PLq" --qtl --burden "zeggini" --geneFile "/data/BurdenTest/Lithiasis_mar/refFlat.txt.gz" --gene "ABCC6"
+[INFO]	Parameters END
+[INFO]	Analysis started at: Mon Mar 18 16:14:33 2019
+[INFO]	Loaded [ 123 ] samples from genotype files
+[INFO]	Loaded [ 123 ] sample pheontypes
+[INFO]	Loaded 0 male, 0 female and 123 sex-unknonw samples from /data/BurdenTest/Lithiasis_mar/output/rvtest/pheno/pheno_PLq
+[INFO]	-- Force quantitative trait mode -- 
+[INFO]	Analysis begins with [ 123 ] samples...
+[INFO]	Loaded [ 1 ] genes.
+[INFO]	Impute missing genotype to mean (by default)
+[INFO]	Analysis started
+[INFO]	Analyzed [ 350 ] variants from [ 1 ] genes/regions
+[INFO]	Analysis ends at: Mon Mar 18 16:14:34 2019
+[INFO]	Analysis took 1 seconds
