@@ -2,8 +2,8 @@ MToolBox: A pipeline for heteroplasmy annotation and prioritization analysis of 
 
 1/ Install MToolBox: https://github.com/mitoNGS/MToolBox/wiki/Installation 
   
-2/ Download data here: 
+2/ Download data here: https://mega.nz/#!JTYAiIyJ 
   
-3/ Uncompress data and put in the input folder
+3/ Uncompress data and put it in the input folder
   
 4/ Specify parameters and run main.ipynb
