@@ -32,3 +32,15 @@
 8/ Preprocessing and Burden test
 
 9/ Output report
+
+## Run Burden test
+
+1/ Install all dependencies
+
+2/ Download data here: https://mega.nz/#!ZXJkXSYR
+
+      - Lithiasis_set_20082018-123-samples.vcf
+
+3/ Uncompress data and put it in the input folder
+
+4/ Specify parameters and run main.ipynb
