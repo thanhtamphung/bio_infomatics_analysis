@@ -2,7 +2,7 @@
 
 ## Dependencies:
 
-  1/ python packages in import cell
+  1/ python packages in the import cell
   
   2/ bedtools
   
@@ -15,6 +15,7 @@
   6/ rvtests https://github.com/zhanxw/rvtests
 
 ## Burden test Framework
+
 1/ Review data
 
 2/ Filter position with bed file
@@ -23,7 +24,7 @@
 
 4/ Filter read depth (min_base_count = 10) and maybe ref, alt
 
-5/ Annotation with exomiser
+5/ Annotation with Exomiser
 
 6/ Filter function_class (protein affecting) and maybe freq
 
