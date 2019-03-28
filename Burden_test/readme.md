@@ -2,7 +2,7 @@
 
 ## Dependencies:
 
-  1/ python packages in the import cell
+  1/ python packages in the import cell (pandas, numpy, pysam)
   
   2/ bedtools
   
