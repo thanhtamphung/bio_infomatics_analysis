@@ -1,4 +1,0 @@
-#!/bin/bash
-export PATH="/home/phung/Documents/work/MToolBox-master/MToolBox/:$PATH"
-bash /home/phung/Documents/work/MToolBox-master/MToolBox/MToolBox.sh -i S5.conf &> S5.log
-echo "Done!"
