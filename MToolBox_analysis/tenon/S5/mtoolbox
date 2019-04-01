@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export PATH="/data/MToolBox/MToolBox-master/MToolBox/:$PATH"
+bash /data/MToolBox/MToolBox-master/MToolBox/MToolBox.sh -i /data/MToolBox/tenon/S5/2052690574-005061_8008990406_S5.conf  &> /data/MToolBox/tenon/S5/2052690574-005061_8008990406_S5.log
+if [ $? -eq 0 ]; then 
+    echo "Done! All output files are in /data/MToolBox/tenon/S5/OUT_2052690574-005061_8008990406_S5/."
+else
+    echo "Not complete! Please check log file to figure out the problem."
+fi
