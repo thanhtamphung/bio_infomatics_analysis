@@ -1,24 +1,28 @@
 args<-commandArgs(TRUE)
+# input
+# args[1]: pheno_file
+# args[2]: gene_matrix
+# args[3]: gene_name
+# args[4]: file output
 myskat <- function(pheno_file,gene_matrix) {
   library(SKAT)
   set.seed(1)
   d<-read.table(pheno_file,header=TRUE,sep=" ")
-  pheno = d$PLq
+  # phenotype
+  pheno<-d$PLq
+  # import covariates to X
+  X<-matrix(c(d$age,d$sex),nrow=123,ncol=2,byrow=FALSE)
+  
+  # genotype matrix
   Ztmp<-read.table(gene_matrix,header=TRUE,sep="\t")
   Z<-data.matrix(Ztmp,rownames.force = NA)
-  y.c<-d$PLq
   
-  #obj<-SKAT_Null_Model(y.c ~ 1, out_type="D")
-  #print (SKAT(Z, obj,kernel = "linear.weighted")$p.value)
-  
-  X<-matrix(c(d$age,d$sex),nrow=123,ncol=2,byrow=FALSE)
-  obj<-SKAT_Null_Model(y.c ~ X, out_type="D",n.Resampling=0 , type.Resampling="bootstrap", Adjustment=TRUE)
+  # run SKAT
+  obj<-SKAT_Null_Model(pheno ~ X, out_type="D",n.Resampling=0 , type.Resampling="bootstrap", Adjustment=TRUE)
   skt = SKAT(Z, obj,kernel = "linear.weighted")
-  #print (skt$p.value)
   return(skt$p.value)
 }
-#pheno_file<-"/data/Rstudio/data/pheno_all1.ped"
-#gene_matrix<-"/data/Rstudio/data/VDR.csv"
+
 pheno_file<-args[1]
 gene_matrix<-args[2]
 p<-myskat(pheno_file,gene_matrix)
