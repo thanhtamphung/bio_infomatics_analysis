@@ -45,3 +45,6 @@
 3/ Uncompress data and put it in the input folder
 
 4/ Specify parameters and run burdentest.ipynb
+
+
+For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
