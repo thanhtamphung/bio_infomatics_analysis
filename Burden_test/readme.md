@@ -46,5 +46,10 @@
 
 4/ Specify parameters and run burdentest.ipynb
 
+## Output
+
+- N_INFORMATIVE: Number of samples that are analyzed for association.
+- NumVar: number of variants in the gene(or site)
+- NumPolyVar: number of Polymorphic Genotypes
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
