@@ -11,3 +11,6 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
 3/ Uncompress data and put it in the input folder
   
 4/ Specify parameters and run main.ipynb
+
+
+For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
