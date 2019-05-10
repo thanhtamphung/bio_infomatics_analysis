@@ -35,7 +35,7 @@
 9/ Output report
 
 
-<img src="https://github.com/thanhtamphung/bio_infomatics_analysis/blob/master/Burden_test/process.jpg" width="250">
+<img src="https://github.com/thanhtamphung/bio_infomatics_analysis/blob/master/Burden_test/process.jpg" width="550">
 
 
 ## Run Burden test
