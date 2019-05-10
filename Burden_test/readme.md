@@ -33,6 +33,7 @@
 8/ Preprocessing and Burden test
 
 9/ Output report
+![alt text](https://github.com/thanhtamphung/bio_infomatics_analysis/blob/master/Burden_test/process.jpg)
 
 ## Run Burden test
 
