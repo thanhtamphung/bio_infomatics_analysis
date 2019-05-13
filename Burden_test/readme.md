@@ -46,7 +46,7 @@
 
       - Lithiasis_set_20082018-123-samples.vcf
 
-3/ Uncompress data and put it in the input folder (Lithiasis)
+3/ Uncompress data and put it into the input folder (Lithiasis)
 
 4/ Specify parameters and run burdentest.ipynb
 
