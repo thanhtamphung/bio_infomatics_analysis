@@ -55,5 +55,6 @@
 - N_INFORMATIVE: Number of samples that are analyzed for association.
 - NumVar: number of variants in the gene(or site)
 - NumPolyVar: number of Polymorphic Genotypes
+- Pvalue: permutation P-value
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
