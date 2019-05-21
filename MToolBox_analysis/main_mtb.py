@@ -1,3 +1,17 @@
+# coding: utf-8
+
+# # MToolBox
+#     Date: 8 Mar 2018
+#     Last edit: 21 May 2019
+#     Ref: https://github.com/mitoNGS/MToolBox/tree/master/MToolBox 
+#     Please have a look the ref link above to understand parameters and more options
+#     Run (shift+enter) following cells, steps by steps 
+#     Runtime: 1H15' with input bam 8.2GB 
+
+# ### Update
+#     Edit bash file mtoolbox
+
+
 import subprocess
 
 #===================== PARAMETERS ===========================================
