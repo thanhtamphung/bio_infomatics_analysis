@@ -48,7 +48,7 @@
 
 3/ Uncompress data and put it into the input folder (Lithiasis)
 
-4/ Specify parameters and run burdentest.ipynb
+4/ Specify parameters and run burdentest_24apr.py OR burdentest_24apr.ipynb
 
 ## Output
 
