@@ -10,9 +10,7 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
   
 3/ Uncompress data and put it in the input folder
   
-4/ If you use Jupyter Notebook, specify parameters and run main.ipynb
-
-   If you use python, specify parameters and run main_mtb.py
+4/ Specify parameters and run main.ipynb OR main_mtb.py
 
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
