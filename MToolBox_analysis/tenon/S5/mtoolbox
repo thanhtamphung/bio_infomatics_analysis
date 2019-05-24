@@ -1,0 +1,13 @@
+#!/bin/bash
+
+MTB=/data/MToolBox/MToolBox-master/MToolBox/
+INPUT=/data/MToolBox/tenon/S5/
+NAME=2052690574-005061_8008990406_S5
+OPT=
+export PATH="${MTB}:$PATH"
+bash ${MTB}MToolBox.sh -i ${INPUT}${NAME}.conf ${OPT} &> ${INPUT}${NAME}.log
+if [ $? -eq 0 ]; then 
+    echo "Done! All output files are in ${INPUT}OUT_${NAME} ."
+else
+    echo "Not complete! Please check log file to figure out the problem."
+fi
