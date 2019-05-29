@@ -65,10 +65,10 @@ input_type={input_type}
 ref=RCRS
 vcf_name={name}
 """.format(
-input_path=input_path,
-name=name,
-output_path=output_path,
-input_type=input_type
+    input_path=input_path,
+    name=name,
+    output_path=output_path,
+    input_type=input_type
 )
 f.write(content_conf)
 f.close()
@@ -91,10 +91,10 @@ else
     echo "Not complete! Please check log file to figure out the problem."
 fi
 """.format(
-mtb_path=mtb_path,
-input_path=input_path,
-name=name,
-option=option
+    mtb_path=mtb_path,
+    input_path=input_path,
+    name=name,
+    option=option
 )
 f.write(content_mtb)
 f.close()
