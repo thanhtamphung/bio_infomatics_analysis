@@ -43,6 +43,7 @@ list_file = input_path + name + ".lst"
 mtb_bash = input_path + "mtoolbox"
 
 #=============================================================================
+## List file
 f = open(list_file, 'wb')
 f.write(f1 + '\n')
 f.write(f2)
@@ -50,6 +51,7 @@ f.close()
 print ("***** Generate list_file with all names of inputs for running MToolBox: " + list_file)
 
 #=============================================================================
+## Configure file
 f = open(conf_file, 'wb')
 f.write('#!/bin/bash\n')
 content_conf = """
@@ -74,6 +76,7 @@ f.close()
 print ("***** Generate conf_file for running MToolBox: " + conf_file)
 
 #=============================================================================
+## Bash/shell file to run MToolBox
 f = open(mtb_bash, 'wb')
 f.write('#!/bin/bash\n')
 content_mtb = """
