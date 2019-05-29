@@ -29,7 +29,6 @@ option = ''
 #=============================================================================
 
 
-
 a = f1.split('.')
 name = a[0]
 output_path = input_path + 'OUT_' + name + '/'
@@ -106,6 +105,4 @@ print ("***** Writing bash file to run MToolBox: " + mtb_bash)
 print ("***** Please view log file " + log_file + "\n ... still running ...") 
 cmd = "bash " + mtb_bash
 print subprocess.check_output(cmd, shell=True)
-
-
 
