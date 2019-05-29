@@ -32,25 +32,25 @@ option = ''
 
 a = f1.split('.')
 name = a[0]
-output_path = input_path+'OUT_'+name+'/'
+output_path = input_path + 'OUT_' + name + '/'
 
-print ("***** Configure file and log file will be saved with names: %s.conf, %s.log in %s \n" %(name,name,input_path))
-print ("***** The output vcf file will be saved with names: %s.vcf in %s \n" %(name,output_path))
+print ("***** Configure file and log file will be saved with names: %s.conf, %s.log in %s \n" %(name, name, input_path))
+print ("***** The output vcf file will be saved with names: %s.vcf in %s \n" %(name, output_path))
 
-conf_file = input_path+name+ ".conf"
-log_file = input_path+name+ ".log"
-list_file = input_path+name+".lst"
-mtb_bash = input_path+"mtoolbox"
+conf_file = input_path + name + ".conf"
+log_file = input_path + name + ".log"
+list_file = input_path + name + ".lst"
+mtb_bash = input_path + "mtoolbox"
 
 #=============================================================================
-f = open(list_file,'wb')
-f.write(f1+'\n')
+f = open(list_file, 'wb')
+f.write(f1 + '\n')
 f.write(f2)
 f.close()
-print ("***** Generate list_file with all names of inputs for running MToolBox: "+ list_file)
+print ("***** Generate list_file with all names of inputs for running MToolBox: " + list_file)
 
 #=============================================================================
-f = open(conf_file,'wb')
+f = open(conf_file, 'wb')
 f.write('#!/bin/bash\n')
 content_conf = """
 mtdb_fasta=chrM.fa
@@ -71,10 +71,10 @@ input_type=input_type
 )
 f.write(content_conf)
 f.close()
-print ("***** Generate conf_file for running MToolBox: "+ conf_file)
+print ("***** Generate conf_file for running MToolBox: " + conf_file)
 
 #=============================================================================
-f = open(mtb_bash,'wb')
+f = open(mtb_bash, 'wb')
 f.write('#!/bin/bash\n')
 content_mtb = """
 MTB={mtb_path}
@@ -96,13 +96,13 @@ option=option
 )
 f.write(content_mtb)
 f.close()
-print ("***** Writing bash file to run MToolBox: "+ mtb_bash)
+print ("***** Writing bash file to run MToolBox: " + mtb_bash)
 
 #=============================================================================
 ## Run MToolBox
-print ("***** Please view log file "+log_file+"\n ... still running ...") 
-cmd = "bash "+mtb_bash
-print subprocess.check_output(cmd, shell = True)
+print ("***** Please view log file " + log_file + "\n ... still running ...") 
+cmd = "bash " + mtb_bash
+print subprocess.check_output(cmd, shell=True)
 
 
 
