@@ -30,15 +30,15 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
 
 ### Processing
 
-1/ Set up parameters
+- Set up parameters
 
-2/ Generate list file with all names of inputs
+- Generate list file with all names of inputs
 
-3/ Generate configure file for running MToolBox
+- Generate configure file for running MToolBox
 
-4/ Generate bash file to run MToolBox
+- Generate bash file to run MToolBox
 
-5/ Call bash file - run MToolBox 
+- Call bash file - run MToolBox 
 
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
