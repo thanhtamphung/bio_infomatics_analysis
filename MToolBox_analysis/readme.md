@@ -28,4 +28,17 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
  5/ Run main.ipynb on Jupyter notebook
     OR run main_mtb.py on terminal: `time python main_mtb.py`
 
+### Processing
+
+1/ Set up parameters
+
+2/ Generate list file with all names of inputs
+
+3/ Generate configure file for running MToolBox
+
+4/ Generate bash file to run MToolBox
+
+5/ Call bash file - run MToolBox 
+
+
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
