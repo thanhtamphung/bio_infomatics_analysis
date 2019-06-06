@@ -12,5 +12,17 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
   
 4/ Specify parameters and run main.ipynb OR main_mtb.py
 
+  `mtb_path =`  : the path of the tool MToolBox folder which contains file MToolbox.sh
+
+  `input_path =`: the folder where you save your input file (fastq, bam ...)
+
+  `f1 =` , `f2 = `       : name of inputs, 
+  
+   for example `f1 = "bamfile.bam"`, `f2 = ""`, 
+   if input files are fastq files, then `f1 = "myfile.R1.fastq.gz"`, `f2 = "myfile.R2.fastq.gz"`. 
+   
+   "FASTQ files MUST be renamed as <sample_name>.R1.fastq, <sample_name>.R2.fastq for PAIRED-END data and <sample_name>.fastq for SINGLE END data. FASTQ compressed input files could be accepted with *.fastq.gz extension."
+
+  `input_type =`: type of input file (fastq, bam, sam), for example `input_type = "bam"`
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
