@@ -26,6 +26,6 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
   `input_type =`: type of input file (fastq, bam, sam), for example `input_type = "bam"`
    
  5/ Run main.ipynb on Jupyter notebook
-    OR run main_mtb.py on terminal: `time python main-mtb.py`
+    OR run main_mtb.py on terminal: `time python main_mtb.py`
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
