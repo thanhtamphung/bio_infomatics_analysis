@@ -16,7 +16,7 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
 
   `input_path =`: the folder where you save your input file (fastq, bam ...)
 
-  `f1 =` , `f2 = `       : name of inputs, 
+  `f1 =` , `f2 = `       : file input names, 
   
    for example `f1 = "bamfile.bam"`, `f2 = ""`, 
    if input files are fastq files, then `f1 = "myfile.R1.fastq.gz"`, `f2 = "myfile.R2.fastq.gz"`. 
