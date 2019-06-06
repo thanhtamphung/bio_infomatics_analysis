@@ -10,7 +10,7 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
   
 3/ Uncompress data and put it in the input folder
   
-4/ Specify parameters and run main.ipynb OR main_mtb.py
+4/ Specify parameters in main.ipynb OR main_mtb.py
 
   `mtb_path =`  : the path of the tool MToolBox folder which contains file MToolbox.sh
 
@@ -24,5 +24,8 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
    "FASTQ files MUST be renamed as <sample_name>.R1.fastq, <sample_name>.R2.fastq for PAIRED-END data and <sample_name>.fastq for SINGLE END data. FASTQ compressed input files could be accepted with *.fastq.gz extension."
 
   `input_type =`: type of input file (fastq, bam, sam), for example `input_type = "bam"`
+   
+ 5/ Run main.ipynb on Jupyter notebook
+    OR run main_mtb.py on terminal: `time python main-mtb.py`
 
 For questions, please send to Phung Thanh Tam <thanhtam.phung@math.cnrs.fr> 
