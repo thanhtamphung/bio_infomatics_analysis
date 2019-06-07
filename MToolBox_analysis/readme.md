@@ -3,7 +3,7 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
 
 1/ Install MToolBox: https://github.com/mitoNGS/MToolBox/wiki/Installation 
   
-2/ Download data here: https://mega.nz/#!JTYAiIyJ 
+2/ Download data here (in case you want a sample test): https://mega.nz/#!JTYAiIyJ 
           
           - 2052690574-005061_8008990406_S5.bam
           - 2052690574-005061_8008990406_S5.bam.bai
@@ -21,7 +21,7 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
    for example `f1 = "bamfile.bam"`, `f2 = ""`, 
    if input files are fastq files, then `f1 = "myfile.R1.fastq.gz"`, `f2 = "myfile.R2.fastq.gz"`. 
    
-   "FASTQ files MUST be renamed as <sample_name>.R1.fastq, <sample_name>.R2.fastq for PAIRED-END data and <sample_name>.fastq for SINGLE END data. FASTQ compressed input files could be accepted with *.fastq.gz extension."
+   "FASTQ files MUST be renamed as `<sample_name>.R1.fastq`, `<sample_name>.R2.fastq` for PAIRED-END data and `<sample_name>.fastq` for SINGLE END data. FASTQ compressed input files could be accepted with *.fastq.gz extension."
 
   - `input_type =`: type of input file (fastq, bam, sam), for example `input_type = "bam"`
    
