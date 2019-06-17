@@ -31,9 +31,9 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
 ### Output
 All output files are in the folder OUT_sample_name
 
-- ../OUT_sample_name/sample_name.vcf : prioritization analysis result
+- `../OUT_sample_name/sample_name.vcf`: prioritization analysis result
 
-- ../OUT_sample_name/OUT_sample_name/sample_name.haplogroup.annotation.csv: annotation result
+- `../OUT_sample_name/OUT_sample_name/sample_name.haplogroup.annotation.csv`: annotation result
 
 
 ### Processing
