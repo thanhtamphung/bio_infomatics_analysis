@@ -27,6 +27,14 @@ A pipeline for heteroplasmy annotation and prioritization analysis of human mito
    
  5/ Run main.ipynb on Jupyter notebook
     OR run main_mtb.py on terminal: `time python main_mtb.py`
+    
+### Output
+All output files are in the folder OUT_sample_name
+
+- ../OUT_sample_name/sample_name.vcf : prioritization analysis result
+
+- ../OUT_sample_name/OUT_sample_name/sample_name.haplogroup.annotation.csv: annotation result
+
 
 ### Processing
 
