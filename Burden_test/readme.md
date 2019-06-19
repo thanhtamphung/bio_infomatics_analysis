@@ -14,6 +14,17 @@
   
   6/ rvtests https://github.com/zhanxw/rvtests
 
+## Parameters
+- input_path =: folder containing all input: vcf, bedfile, correspondance_table, exome file
+- vcf_name =: vcf input file
+- bedfile =: bed file
+- ctable =: table link sample name id and phenotype
+- exomefile =: model exomiser configure file
+- genefile =: gene names with coodinates
+- af_pro =: List of protein affections for filtering
+- exom_path =: full path of "exomiser-cli-8.0.0.jar"
+- rvtest_pwd =: full path of rvtests
+
 ## Burden test Framework
 
 1/ Review data
