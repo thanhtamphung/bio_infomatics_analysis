@@ -14,9 +14,9 @@
 import subprocess
 
 #===================== PARAMETERS ===========================================
-# path of the tool MToolBox folder which contains file MToolbox.sh
+# path of the tool MToolBox folder which contains file MToolbox.sh (must end with '/')
 mtb_path = "/data/MToolBox/MToolBox-master/MToolBox/"
-# the folder where you save your input file (fastq, bam ...)
+# the folder where you save your input file (fastq, bam ...) (must end with '/')
 input_path = "/data/MToolBox/tenon/S5/"
 # names of inputs
 f1 = "2052690574-005061_8008990406_S5.bam"
